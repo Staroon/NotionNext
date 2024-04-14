@@ -1,12 +1,12 @@
 const CONFIG = {
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2017-06-04', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    // { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
+    // { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -42,7 +42,7 @@ const CONFIG = {
     '🤖️ 数码科技爱好者',
     '🧱 团队小组发动机'
   ],
-  HEO_INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  HEO_INFO_CARD_URL: 'https://github.com/Staroon', // 个人资料底部按钮链接
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
@@ -104,7 +104,7 @@ const CONFIG = {
     }
   ],
 
-  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  HEO_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
